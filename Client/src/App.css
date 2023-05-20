@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'RickAndMorty';
+   src: url("../public/get_schwifty.ttf");
+}
+
+.App {
+   background-image: url("../public/background.gif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+
+   text-align: center;
+}

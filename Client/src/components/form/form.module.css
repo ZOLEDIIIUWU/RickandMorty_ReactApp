@@ -1,0 +1,114 @@
+.cont {
+    height: 63em;
+    width: 50em;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: 200px;
+}
+
+.logo{
+    height: 100px;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 2px solid #323232;
+    background-color: #333834a6;
+    box-shadow: 4px 4px #323232;
+}
+
+.formInput {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.inputContainer input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #323232;
+    background-color: #fff;
+    box-shadow: 4px 4px #323232;
+    font-size: 15px;
+    font-weight: 600;
+    color: #323232;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.inputContainer input::placeholder {
+    color: #666;
+    opacity: 0.8;
+}
+
+.inputContainer input:focus{
+    border: 2px solid #448a32;
+}
+
+.errors {
+    border-radius: 5px;
+    border: 3px solid #9d534a;
+    background-color: #fff;
+    box-shadow: 4px 4px #9d534a;
+    color: #323232;
+    height: fit-content;
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container form button {
+    border-style:none;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container button:hover .icon {
+    transform: scale(1.4);
+    fill-rule: unset;
+    cursor: pointer;
+    stroke: rgb(0, 139, 49);
+}
+
+.icon {
+    transform: scale(1.1);
+    transition: 200ms linear;
+    stroke: rgb(255, 255, 255);
+}

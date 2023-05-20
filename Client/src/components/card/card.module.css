@@ -1,0 +1,102 @@
+.card {
+    margin: 20px;
+    height: fit-content;
+    width: 400px;
+
+    background-color: #262626;
+    border-radius: 10px;
+    border: 4px solid #323232;
+    box-shadow: 3px 3px #323232;
+}
+
+.dataContainer {
+    background-color: #62a4ab;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.dataContainer .id {
+    text-align: center;
+    background-color: #414141;
+    width: fit-content;
+    color: #ffffff;
+    padding: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #323232;
+    box-shadow: 4px 4px #323232;
+    font-weight: 600;
+}
+.dataContainer .cardName {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+.dataContainer .name {
+    background-color: #414141;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    height: fit-content;
+    border: 2px solid #323232;
+    box-shadow: 4px 4px #323232;
+    font-weight: 600;
+}
+
+.imgContainer {
+    padding-bottom: 10px;
+}
+.imgContainer img{
+    background-color: #262626;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 4px solid #62a4ab;
+}
+
+.buttonContainer {
+    border-top: 4px solid #323232;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deleteButton {
+    border-style:none;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 10px;
+}
+.deleteButton:hover .deleteIcon {
+    transform: scale(1.5);
+    fill-rule: unset;
+    cursor: pointer;
+    stroke: red;
+}
+.deleteIcon {
+    transform: scale(1.2);
+    transition: 200ms linear;
+    stroke: rgb(68, 68, 68);
+}
+
+.favButton {
+    border-style:none;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 10px;
+}
+.favButton:hover .favIcon {
+    transform: scale(1.5);
+    fill-rule: unset;
+    cursor: pointer;
+    stroke: rgb(255, 0, 0);
+}
+.favIcon {
+    transform: scale(1.2);
+    transition: 200ms linear;
+}

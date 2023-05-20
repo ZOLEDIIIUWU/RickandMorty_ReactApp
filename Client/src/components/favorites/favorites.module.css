@@ -1,0 +1,42 @@
+.container {
+	min-height: 931px;
+}
+
+.cardContainer {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.favContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.favContainer select {
+	margin: 20px;
+	width: fit-content;
+	height: fit-content;
+	font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+	border-radius: 2px;
+    border: 3px solid #323232;
+    box-shadow: 4px 4px #323232;
+}
+.favContainer select:hover {
+    border: 3px solid #448a32;
+}
+
+.favContainer option {
+	font-size: 15px;
+    font-weight: 600;
+    color: #323232;
+	border-radius: 2px;
+    border: 2px solid #323232;
+    box-shadow: 3px 3px #323232;
+}
